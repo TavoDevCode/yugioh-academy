@@ -7,7 +7,7 @@ const Instructor = require('../models/Instructor')
 
 const moment = require('moment')
 const bcryptjs = require('bcryptjs')
-// const jwt = require('jsonwebtoken')
+
 require('dotenv').config({ path: '.env' })
 
 const resolvers = {
