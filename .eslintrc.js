@@ -1,8 +1,8 @@
-// const RULES = {
-//   OFF: 'off',
-//   WARN: 'warn',
-//   ERROR: 'error'
-// }
+const RULES = {
+  OFF: 'off',
+  WARN: 'warn',
+  ERROR: 'error'
+}
 
 module.exports = {
   env: {
@@ -17,6 +17,7 @@ module.exports = {
   },
   plugins: ['prettier'],
   rules: {
+    camelcase: RULES.OFF
     // semi: ['error', 'always'],
     // quotes: ['error', 'double'],
     // error al dejar variable sin usar

@@ -7,7 +7,11 @@ const instructorSchema = new Schema({
     required: true,
     ref: 'User'
   },
-  isActive: {
+  is_admin: {
+    type: Boolean,
+    default: false
+  },
+  is_active: {
     type: Boolean,
     default: true
   },

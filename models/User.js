@@ -19,8 +19,7 @@ const userSchema = new Schema({
   },
   discord_username: {
     type: String,
-    required: false,
-    trim: true
+    default: ''
   },
   user: {
     type: String,
@@ -33,7 +32,7 @@ const userSchema = new Schema({
     required: true,
     trim: true
   },
-  isActive: {
+  is_active: {
     type: Boolean,
     default: true
   },

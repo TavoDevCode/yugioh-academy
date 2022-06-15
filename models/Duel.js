@@ -26,6 +26,11 @@ const duelSchema = new Schema({
     type: String,
     default: 'UNAPPROVED'
   },
+  is_winner: {
+    type: Boolean,
+    required: true,
+    trim: true
+  },
   deck_image_url: {
     type: String,
     required: true,

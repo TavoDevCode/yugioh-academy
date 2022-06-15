@@ -12,7 +12,7 @@ const formatSchema = new Schema({
     type: Number,
     required: true
   },
-  isActive: {
+  is_active: {
     type: Boolean,
     default: true
   },
